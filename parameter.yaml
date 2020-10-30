@@ -1,0 +1,12 @@
+batch_size: 32
+learning_rate: 0.01
+checkpoint: './checkpoint'
+dataDir: 'E:\\project\\anormal\\dcase2020_task2_baseline\\dev_data\\fan\\train'
+log: './log'
+trainNum: 1000
+frameNums: 313
+mels: 128
+epochs: 200
+model_name: 'c2ae.ckpt'
+max_fpr: 0.1
+
