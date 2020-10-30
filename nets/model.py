@@ -19,7 +19,6 @@ def FiLM_Layer(feature, y):
         x1 = tf.compat.v1.nn.sigmoid(x1)
 
         x2 = tf.compat.v1.layers.dense(y, 16, name="con_2")
-        x2 = tf.compat.v1.nn.sigmoid(x2)
 
         conditionZ = x1 * feature + x2 
     return conditionZ
