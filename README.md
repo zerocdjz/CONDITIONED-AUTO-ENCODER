@@ -1,2 +1,2 @@
 # CONDITIONED-AUTO-ENCODER
-tensorflow code for DCASE2020 TASK2 paper "ID-CONDITIONED AUTO-ENCODER FOR UNSUPERVISED ANOMALY DETECTION"
+Tensorflow code for DCASE2020-TASK2 paper "ID-conditioned auto-encoder for unsupervised anomaly detection"
